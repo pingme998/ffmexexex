@@ -1,7 +1,7 @@
 FROM ubuntu
 RUN apt update -y \
     && apt upgrade -y \
-    && apt install wget -y \
+    && apt install curl -y \
     && apt install unzip -y \
     && apt install git -y
 RUN apt install unrar -y
